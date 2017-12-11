@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "752677185591",
+    "firebase_url": "https://speedfoods-5f1b2.firebaseio.com",
+    "project_id": "speedfoods-5f1b2",
+    "storage_bucket": "speedfoods-5f1b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752677185591:android:24c615031dc03b2b",
+        "android_client_info": {
+          "package_name": "com.example.neilijalel.speedfoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752677185591-2tntod4mlqkg5b67qkkmlgbk4d0o1va8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxQAUGH4J3bTdt8M_ctaqSj9xjna-o_Hk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
