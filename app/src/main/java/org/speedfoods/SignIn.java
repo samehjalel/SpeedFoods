@@ -60,6 +60,7 @@ public class SignIn extends AppCompatActivity {
                             User user = dataSnapshot.child(editPhone.getText().toString()).getValue(User.class);
                             if (user.getPassword().equals(editPassword.getText().toString())) {
 
+
                                 Toast.makeText(SignIn.this, "Sign in sucessfully", Toast.LENGTH_SHORT).show();
 
                             } else {
