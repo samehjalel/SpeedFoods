@@ -1,6 +1,7 @@
 package org.speedfoods;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.example.neilijalel.speedfoods.Common.Common;
 import com.example.neilijalel.speedfoods.Model.User;
 import com.example.neilijalel.speedfoods.R;
 import com.google.firebase.database.DataSnapshot;
@@ -61,7 +63,11 @@ public class SignIn extends AppCompatActivity {
                             if (user.getPassword().equals(editPassword.getText().toString())) {
 
 
-                                Toast.makeText(SignIn.this, "Sign in sucessfully", Toast.LENGTH_SHORT).show();
+                                Intent homeIntent=new Intent(SignIn.this,Home.class);
+                                Common.currentUser=user;
+                                startActivity(homeIntent);
+                                finish();
+
 
                             } else {
                                 Toast.makeText(SignIn.this, "Sign in Failed", Toast.LENGTH_SHORT).show();
